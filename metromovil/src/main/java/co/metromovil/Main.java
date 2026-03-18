@@ -13,8 +13,7 @@ public class Main {
         iObserver MC = new MCoordinator();
         iObserver TS = new TSurpervisor();
 
-        int[] data = new int[3];
-        data ;
+        int[] data = {1,2,3};
         
         MetroMovilStatus mms = new MetroMovilStatus(data);
         mms.addObserver(TS);
